@@ -6,6 +6,7 @@ class leetcode {
         System.out.println("Fibonancci code");
         int n = 10;
         System.out.println("Fibonacci number at position " + n + " is: " + fibonacci(n));
+        System.out.println("String length is " + countLength("Anh-Marcus"));
     }
     
     public static int fibonacci(int n) {
@@ -14,6 +15,10 @@ class leetcode {
         } else {
             return fibonacci(n - 1) + fibonacci(n - 2);
         }
+    }
+
+    public static int countLength(String s) {
+        return s.length();
     }
 
 
